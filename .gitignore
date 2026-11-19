@@ -1,0 +1,14 @@
+# Python / tooling
+.venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+
+# Annotator output: annotator IDs and judgements, not code
+annotations/
+*.csv
+
+# Real datasets stay local; only the small demo file is tracked.
+# Remove these two lines if you do want to publish your data.
+data/*
+!data/sample.jsonl

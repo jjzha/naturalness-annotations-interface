@@ -1,0 +1,19 @@
+[client]
+toolbarMode = "viewer"
+
+[browser]
+gatherUsageStats = false
+
+# Both themes are defined, so the app follows the system setting and the
+# ⋮ menu lets each annotator switch between System / Light / Dark.
+[theme.light]
+primaryColor = "#2563eb"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f3f4f6"
+textColor = "#1f2328"
+
+[theme.dark]
+primaryColor = "#3b82f6"
+backgroundColor = "#0f1115"
+secondaryBackgroundColor = "#1b1e24"
+textColor = "#e6e7ea"
